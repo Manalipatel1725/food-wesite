@@ -1,0 +1,278 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+
+}
+.bar1{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(42, 39, 39);
+    
+}
+#abcd{
+    width: 100%;
+    height: 100vh;
+    background-image: cover;
+}
+
+.img1{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    
+}
+
+.ul1{
+    margin-left: 600px;
+    list-style-type: none;
+    
+}
+
+.li1{
+    float: left;
+    padding: 20px;
+    
+    margin-top: 5px;
+}
+
+li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.img2{
+    position: absolute;
+    top: 10px;
+}
+
+.button1{
+    background-color:rgb(201, 150, 57);
+    border:solid 3px white;
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    margin-top: 5px;
+    height: 5vh;
+    width: 15vh;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 70px;
+    color: white;
+}
+.banner{
+    text-align: center;
+    position: relative;
+    top: 230px;
+    right: 10px;
+}
+
+.bannerh1{
+    
+    color: rgb(14, 14, 14);
+    font-size: 150px;
+}
+.bannerp{
+    
+    color: rgb(14, 14, 14);
+    font-size: 70px;
+}
+
+.bannerbutton{
+    background-color: rgb(77, 141, 77);
+    border:solid 2px  white;
+    position: absolute;
+    margin-top: 50px;
+    height: 10vh;
+    width: 25vh;
+    text-transform: uppercase;
+   
+    border-radius: 50px;
+    color: white;
+    left: 650px;
+    font-size: 20px;
+}
+    .about1{
+        clear: both;
+       padding-top: 200px;
+       padding-bottom: 400px;
+        
+    }
+    .aboutdiv1{
+        float: right;
+        height: 350px;
+        width: 53%;
+        
+    }
+    .abouth1{
+    font-size: 50px;
+    font-style: bold;
+    text-transform: uppercase;
+    
+    }
+
+    .abouthp{
+        padding-top: 20px;
+        font-size: 25px
+    }
+    .aboutbutton{
+        background-color: rgb(77, 141, 77);
+        border:solid 4px  white;;
+        position: absolute;
+        margin-top: 50px;
+        height: 9vh;
+        width: 23vh;
+        border-radius: 50px;
+        color: white;
+        font-size: 25px;
+        margin-left: 80px;
+    }
+
+        .aboutimg{
+            float: right;
+        margin-right: 100px;
+        }
+
+        .service{
+            clear: both;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: rgb(155, 139, 139);
+        }
+
+        .servicediv1{
+            height: 80px;
+            width: 100%;
+            text-transform: uppercase;
+            font-style: bold;
+            text-align: center;
+            font-size: 40px;
+        }
+        .servicediv2{
+            height: 450px;
+            width: 30%;
+            
+            display: inline-block;
+            margin-left: 50px;
+            text-align: center;
+        }
+        .servicediv3{
+            height: 450px;
+            width: 30%;
+            
+            display: inline-block;
+            text-align: center;
+        }
+        .servicediv4{
+            height: 450px;
+            width: 30%;
+            
+            display: inline-block;
+            text-align: center;
+        }
+
+        .buttonlearn{
+            color: black;
+            padding: 20px;
+            border: none;
+            border-bottom: 2px solid red;
+            background-color: transparent;
+            
+        }
+        .servicep{
+            padding-top: 10px;
+            font-size: 30px;
+            text-transform: uppercase;
+            font-style: bold;
+            padding-bottom: 10px;
+        }
+
+        .formimg{
+            height: 400px;
+            width: 100%;
+            position: absolute;
+        }
+
+        .formdiv1{
+            position: relative;
+            height: 400px;
+            width: 45%;
+            padding-right: 80px;
+            float: left;
+            padding-left: 80px;
+            padding-top: 70px;
+            
+            color: white;
+        }
+
+        .formh1{
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+
+        .formp1{
+            text-align: justify;
+            padding: 20px;
+        }
+        .formbutton1{
+            padding: 10px;
+            margin-top: 50px;
+            margin-left: 200px;
+            background-color: transparent;
+            border: 1px solid white;
+            font-size: 20px;
+            color: white;
+        }
+
+        .formdiv2{
+            
+            float: right;   
+            position: relative;
+            width: 45%;
+            height: 400px;
+            padding-left: 10%;
+            color: white;
+            padding-top: 70px;
+            
+        }
+
+        div input{
+            padding: 8px;
+            margin-bottom: 20px;
+        }
+        .formbutten{
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .onlineplatfrom{
+            clear: both;
+            width: 100%;
+          
+            padding: 10px ;
+            text-align: center;
+            background-color: rgb(50, 42, 42);
+        }
+
+        .footer{
+            clear: both;
+            color: white;
+            width: 100%;
+           
+            padding: 10px ;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+        } 
+
+        button:hover{
+            color: white;
+            background-color: aqua;
+        }
